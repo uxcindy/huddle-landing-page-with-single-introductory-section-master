@@ -1,0 +1,101 @@
+
+body {
+  background-color: hsl(257, 40%, 49%);
+  background-image: url('../images/bg-desktop.svg');
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  font-weight: 400;
+  padding-bottom: 2%;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  color: white;
+}
+
+.mockup-image {
+  padding: 7% 5%;
+  width: 100%
+}
+
+.col-community {
+  padding: 7% 8%;
+}
+
+
+/* Register Button */
+
+.btn-register{
+  background-color: #fff;
+  border: none;
+  border-radius: 30px;
+  color: hsl(257, 40%, 49%);
+  padding: 15px 75px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.btn-register:hover {
+  background-color: gray;
+  color: white;
+}
+
+/* Social icons */
+.social-icon-group {
+  /* margin: 3% 5%; */
+  text-align: right;
+  margin-right: 7%;
+}
+
+.social-icon {
+  padding: 10px;
+}
+
+.attribution {
+  padding-top: 10%;
+}
+
+
+
+/* once at mobile version, make button wider,
+move button and social icons to the center */
+@media (max-width: 500px) {
+
+  .social-icon-group {
+    text-align: center;
+  }
+
+  .btn-register{
+    background-color: #fff;
+    border: none;
+    border-radius: 30px;
+    color: hsl(257, 40%, 49%);
+    padding: 15px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+
+  .btn-register:hover {
+    background-color: gray;
+    color: white;
+  }
+
+  .button-register {
+    padding: 2% 18%;
+
+  }
+}
